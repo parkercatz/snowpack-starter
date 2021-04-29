@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "snowpack dev",
-    "build": "snowpack build"
+    "build": "npm run clean && snowpack build",
+    "clean": "rimraf ./build/*"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,7 @@
     "@babel/preset-env": "^7.13.15",
     "@marlonmarcello/snowpack-plugin-pug": "^1.0.3",
     "@snowpack/plugin-babel": "^2.1.7",
+    "rimraf": "^3.0.2",
     "snowpack": "^3.3.5",
     "snowpack-sass-compiler": "^1.0.6"
   }
