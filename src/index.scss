@@ -1,20 +1,17 @@
 body {
   font-family: sans-serif;
 }
-
 h1 {
   color: red;
 }
-
 p {
   font-size: 2rem;
   font-weight: bold;
 }
-
 ul {
   display: flex;
   justify-content: space-between;
-}
-ul li {
-  color: blue;
+  li {
+    color: blue;
+  }
 }

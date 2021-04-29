@@ -12,6 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "@marlonmarcello/snowpack-plugin-pug": "^1.0.3",
-    "snowpack": "^3.3.5"
+    "snowpack": "^3.3.5",
+    "snowpack-sass-compiler": "^1.0.6"
   }
 }
