@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@marlonmarcello/snowpack-plugin-pug": "^1.0.3",
     "snowpack": "^3.3.5"
   }
 }
